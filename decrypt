@@ -1,0 +1,4 @@
+#!/bin/bash
+source config
+FILE=$1
+gpg -d -o $OUT_DIR$(basename $FILE) $FILE

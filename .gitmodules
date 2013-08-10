@@ -1,0 +1,3 @@
+[submodule "adhocify"]
+	path = adhocify
+	url = git@github.com:lawl/adhocify.git

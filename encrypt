@@ -1,0 +1,5 @@
+#!/bin/bash
+source config
+FILE=$1
+gpg -er $GPG_RECIPIENT_ID -o $OUT_DIR$(basename $FILE) $FILE
+shred -u $FILE

@@ -1,0 +1,4 @@
+WATCH_DIR="/directory/to/watch/goes/here"
+OUT_DIR="/en/or/de/crypted/stuff/goes/here"
+MODE="encrypt" # or "decrypt"
+GPG_RECIPIENT_ID="goes@he.re" # only needed for encryption
